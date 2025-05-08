@@ -38,7 +38,7 @@
       <color>#35ab68</color>
       <color>#f9f6f5</color>
     </color-palette>
-    <color-palette custom='true' name='Rialto Sequential' type='ordered-sequential'>
+    <color-palette custom='true' name='RIALTO Sequential' type='ordered-sequential'>
       <color>#f8f8f8</color>
       <color>#2b5c8a</color>
     </color-palette>
@@ -5942,7 +5942,7 @@
             <format attr='text-format' field='[federated.1yi9yzs1iyhagx1bhs36l098h8ve].[usr:Calculation_4769100950903685122:qk]' value='p0.0%' />
           </style-rule>
           <style-rule element='mark'>
-            <encoding attr='color' field='[federated.1yi9yzs1iyhagx1bhs36l098h8ve].[usr:Calculation_4769100950903685122:qk]' palette='Rialto Sequential' type='interpolated' />
+            <encoding attr='color' field='[federated.1yi9yzs1iyhagx1bhs36l098h8ve].[usr:Calculation_4769100950903685122:qk]' palette='RIALTO Sequential' type='interpolated' />
           </style-rule>
           <style-rule element='table-div'>
             <format attr='line-visibility' scope='rows' value='on' />
@@ -17144,8 +17144,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='3800' minheight='3800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='344' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99096' id='343' param='vert' type-v2='layout-flow' w='98828' x='586' y='452'>
+            <zone h='100000' id='348' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99096' id='347' param='vert' type-v2='layout-flow' w='98828' x='586' y='452'>
                 <zone fixed-size='60' h='3846' id='21' is-fixed='true' name='IND1' show-title='false' w='19765' x='586' y='11086'>
                   <layout-cache fixed-size-h='60' minwidth='100' type-h='fixed' type-w='scalable' />
                   <zone-style>
@@ -17815,8 +17815,8 @@ Answer questions such as, </run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1850' minheight='1850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='370' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98770' id='369' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
+            <zone h='100000' id='374' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98770' id='373' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
                 <zone alt-text='Stanford University Libraries' fixed-size='24' h='2460' id='170' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='98666' x='667' y='615'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -18395,8 +18395,8 @@ Answer questions such as, </run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='3000' minheight='3000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='374' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98770' id='373' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
+            <zone h='100000' id='378' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98770' id='377' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
                 <zone alt-text='Stanford University Libraries' fixed-size='24' h='2462' id='220' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='98666' x='667' y='615'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -18995,8 +18995,8 @@ Answer questions such as, </run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='340' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98770' id='339' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
+            <zone h='100000' id='344' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98770' id='343' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
                 <zone alt-text='Stanford University Libraries' fixed-size='24' h='2462' id='126' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='98666' x='667' y='615'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -19195,7 +19195,7 @@ Answer questions such as, </run>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='44' />
+      <active id='168' />
       <simple-id uuid='{5FD24CBC-A6BE-456C-8B0A-2D3BFB0942B2}' />
     </window>
     <window class='dashboard' name='School OA Drill Down'>
@@ -19206,7 +19206,7 @@ Answer questions such as, </run>
         </viewpoint>
         <viewpoint name='OA School-Department Table' />
       </viewpoints>
-      <active id='112' />
+      <active id='79' />
       <simple-id uuid='{C0CA7517-DD98-4084-BAA6-CD6A9F7AD04A}' />
     </window>
     <window class='dashboard' name='School OA Overview'>
