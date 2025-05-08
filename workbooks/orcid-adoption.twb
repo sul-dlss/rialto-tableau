@@ -22,7 +22,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneFriendlyName />
   </document-format-change-manifest>
-  <repository-location derived-from='https://tableau-uat.stanford.edu/t/RIALTO/workbooks/orcid-dashboard?rev=2.7' id='orcid-dashboard' path='/t/RIALTO/workbooks' revision='3.7' site='RIALTO' />
+  <repository-location derived-from='https://tableau-uat.stanford.edu/t/RIALTO/workbooks/orcid-dashboard?rev=2.7' id='ORCIDAdoption' path='/t/RIALTO/workbooks' revision='1.0' site='RIALTO' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -484,8 +484,8 @@
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
         <table-calc ordering-type='CellInPane' />
-        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
+        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk]' pivot='key' type='quantitative'>
@@ -1618,8 +1618,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -1847,8 +1847,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -2336,8 +2336,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='617' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98770' id='616' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
+            <zone h='100000' id='629' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98770' id='628' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
                 <zone alt-text='Stanford University Libraries' fixed-size='24' h='2462' id='465' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='96666' x='1667' y='1538'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2809,8 +2809,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='680' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98770' id='679' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
+            <zone h='100000' id='692' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98770' id='691' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
                 <zone alt-text='Stanford University Libraries' fixed-size='24' h='2462' id='496' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='96666' x='1667' y='1538'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3003,7 +3003,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='165' />
+      <active id='305' />
       <simple-id uuid='{A81C692C-9870-431F-864F-77A09036B704}' />
     </window>
     <window class='dashboard' name='ORCID Drill Down'>
@@ -3024,7 +3024,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='31' />
+      <active id='-1' />
       <device-preview>
         <device name='iPhone XR, XS Max, 11 Pro Max' type='Phone' />
       </device-preview>
