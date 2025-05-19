@@ -5,7 +5,6 @@
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
-    <AutoCreateAndUpdateDSDPhoneLayouts />
     <DashboardMttwImageObject />
     <ExternalImageContentForZones />
     <MarkAnimation />
@@ -480,8 +479,8 @@
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
         <table-calc ordering-type='CellInPane' />
-        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk]' pivot='key' type='quantitative'>
@@ -497,7 +496,7 @@
       <column-instance column='[Orcid Update Scope Int (copy)_2288602729940561922]' derivation='User' name='[usr:Orcid Update Scope Int (copy)_2288602729940561922:qk]' pivot='key' type='quantitative'>
         <table-calc ordering-type='Rows' />
       </column-instance>
-      <layout common-percentage='0.868357' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.131643' show-aliased-fields='true' show-structure='true' user-set-layout-v2='true' />
+      <layout common-percentage='0.936937' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.0630631' show-aliased-fields='true' show-structure='true' user-set-layout-v2='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[:Measure Names]' palette='color_blind_10_0' type='palette'>
@@ -711,7 +710,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='integer' name='context'>6</attribute>
+              <attribute datatype='integer' name='context'>2</attribute>
               <attribute datatype='string' name='gridOrigin'>&quot;A1:C50:no:A1:C50:0&quot;</attribute>
               <attribute datatype='boolean' name='header'>true</attribute>
               <attribute datatype='integer' name='outcome'>2</attribute>
@@ -1626,8 +1625,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -1859,8 +1858,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -2332,12 +2331,12 @@
         </zone>
       </zones>
       <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
+        <devicelayout name='Phone'>
           <size maxheight='1950' minheight='1950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='659' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98770' id='658' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
-                <zone alt-text='Stanford University Libraries' fixed-size='24' h='2462' id='465' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='96666' x='1667' y='1538'>
+            <zone h='100000' id='661' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97948' id='660' param='vert' type-v2='layout-flow' w='90338' x='4831' y='1026'>
+                <zone alt-text='Stanford University Libraries' fixed-size='24' h='1641' id='465' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='90338' x='4831' y='1026'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2346,7 +2345,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='4769' id='32' type-v2='text' w='70666' x='1667' y='4000'>
+                <zone forceUpdate='true' h='5538' id='32' type-v2='text' w='90338' x='4831' y='2667'>
                   <formatted-text>
                     <run bold='true' fontname='Tableau Bold' fontsize='28'>Stanford ORCID Adoption Drill Down</run>
                   </formatted-text>
@@ -2358,7 +2357,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone alt-text='RIALTO | ORCID' fixed-size='62' h='4769' id='31' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/rialto-orcid-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='26000' x='72333' y='4000'>
+                <zone alt-text='RIALTO | ORCID' fixed-size='62' h='3589' id='31' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/rialto-orcid-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='90338' x='4831' y='8205'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2368,7 +2367,7 @@
                     <format attr='background-color' value='#ffffff' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='2462' id='536' is-fixed='true' name='Dashboard FAQ Link' show-title='false' w='23917' x='74084' y='8769'>
+                <zone fixed-size='40' h='2461' id='536' is-fixed='true' name='Dashboard FAQ Link' show-title='false' w='90338' x='4831' y='11794'>
                   <layout-cache fixed-size-w='279' type-h='fixed' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2378,7 +2377,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='24' forceUpdate='true' h='2461' id='130' type-v2='text' w='96666' x='1667' y='11231'>
+                <zone fixed-size='24' forceUpdate='true' h='1487' id='130' type-v2='text' w='90338' x='4831' y='14255'>
                   <formatted-text>
                     <run fontsize='11'>Dashboard Filters</run>
                   </formatted-text>
@@ -2390,7 +2389,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5539' id='362' mode='dropdown' name='ORCID Adoption by Role' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:Calculation_3674374407932821504:nk]' type-v2='filter' values='relevant' w='32250' x='1667' y='13692'>
+                <zone h='2666' id='362' mode='dropdown' name='ORCID Adoption by Role' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:Calculation_3674374407932821504:nk]' type-v2='filter' values='relevant' w='90338' x='4831' y='15742'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2400,7 +2399,7 @@
                     <format attr='background-color' value='#f5f5f5' />
                   </zone-style>
                 </zone>
-                <zone h='5539' id='359' mode='dropdown' name='ORCID Adoption by Role' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:primary_department:nk]' type-v2='filter' values='relevant' w='32250' x='33917' y='13692'>
+                <zone h='2666' id='359' mode='dropdown' name='ORCID Adoption by Role' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:primary_department:nk]' type-v2='filter' values='relevant' w='90338' x='4831' y='18408'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2410,7 +2409,7 @@
                     <format attr='background-color' value='#f5f5f5' />
                   </zone-style>
                 </zone>
-                <zone h='5539' id='29' mode='checkdropdown' name='ORCID Adoption by Role' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:role:nk]' type-v2='filter' w='32166' x='66167' y='13692'>
+                <zone h='2666' id='29' mode='checkdropdown' name='ORCID Adoption by Role' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:role:nk]' type-v2='filter' w='90338' x='4831' y='21074'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2420,8 +2419,8 @@
                     <format attr='background-color' value='#f5f5f5' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='31692' id='26' is-fixed='true' name='ORCID Adoption by Role' show-caption='true' w='78749' x='1667' y='19231'>
-                  <layout-cache fixed-size-h='9047' type-h='fixed' type-w='cell' />
+                <zone fixed-size='280' h='14769' id='26' is-fixed='true' name='ORCID Adoption by Role' show-caption='true' w='90338' x='4831' y='23740'>
+                  <layout-cache type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2430,16 +2429,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone friendly-name='ORCID Measure' h='5000' id='30' name='ORCID Adoption by Role' pane-specification-id='0' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[usr:Calculation_2288602729941438467:qk:4]' single-line='false' type-v2='color' w='17917' x='80416' y='42846'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='42' forceUpdate='true' h='3846' id='220' type-v2='text' w='17917' x='80416' y='19231'>
+                <zone fixed-size='42' forceUpdate='true' h='1487' id='220' type-v2='text' w='90338' x='4831' y='38509'>
                   <formatted-text>
                     <run fontsize='11'>Table Filters</run>
                   </formatted-text>
@@ -2451,7 +2441,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='7692' id='12' mode='list' param='[Parameters].[Parameter 1]' show-title='false' type-v2='paramctrl' w='17917' x='80416' y='23077'>
+                <zone fixed-size='92' h='3641' id='12' mode='list' param='[Parameters].[Parameter 1]' show-title='false' type-v2='paramctrl' w='90338' x='4831' y='39996'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2461,7 +2451,7 @@
                     <format attr='background-color' value='#f5f5f5' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='149' forceUpdate='true' h='12077' id='217' type-v2='text' w='17917' x='80416' y='30769'>
+                <zone fixed-size='149' forceUpdate='true' h='4769' id='217' type-v2='text' w='90338' x='4831' y='43637'>
                   <formatted-text>
                     <run italic='true'>ORCID: Researchers who have connected their ORCID with their SUNet ID.</run>
                     <run>Æ&#10;&#10;</run>
@@ -2475,38 +2465,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='67' h='5769' id='64' mode='pattern' name='Individual Table' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:sunetid:nk]' type-v2='filter' values='database' w='17917' x='80416' y='58231'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#f5f5f5' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='102' h='8461' id='14' mode='dropdown' name='Individual Table' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:Orcidid Int (copy)_3283968603890552863:ok]' type-v2='filter' w='17917' x='80416' y='64000'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#f5f5f5' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='102' h='8461' id='91' mode='dropdown' name='Individual Table' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:orcid_update_scope:nk]' type-v2='filter' values='database' w='17917' x='80416' y='72461'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#f5f5f5' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='37033' id='13' is-fixed='true' name='Individual Table' show-caption='true' w='78749' x='1667' y='54385'>
-                  <layout-cache fixed-size-h='865596' type-h='fixed' type-w='cell' />
+                <zone friendly-name='ORCID Measure' h='3333' id='30' name='ORCID Adoption by Role' pane-specification-id='0' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[usr:Calculation_2288602729941438467:qk:4]' single-line='false' type-v2='color' w='90338' x='4831' y='48406'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2515,7 +2474,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='102' h='8461' id='21' name='Individual Table' pane-specification-id='0' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[attr:Orcidid Int (copy)_3283968603890552863:ok]&#10;[federated.1cblkfd0eees0e10ev5vy1o50tmw].[attr:orcid_update_scope:nk]' type-v2='color' w='17917' x='80416' y='80922'>
+                <zone fixed-size='280' h='14769' id='13' is-fixed='true' name='Individual Table' show-caption='true' w='90338' x='4831' y='51739'>
+                  <layout-cache type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2524,7 +2484,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='41' forceUpdate='true' h='3846' id='221' type-v2='text' w='17917' x='80416' y='54385'>
+                <zone fixed-size='41' forceUpdate='true' h='1487' id='221' type-v2='text' w='90338' x='4831' y='66508'>
                   <formatted-text>
                     <run fontsize='11'>Table Filters</run>
                   </formatted-text>
@@ -2536,7 +2496,46 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='4582' id='216' type-v2='text' w='96666' x='1667' y='91418'>
+                <zone fixed-size='67' h='2666' id='64' mode='pattern' name='Individual Table' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:sunetid:nk]' type-v2='filter' values='database' w='90338' x='4831' y='67995'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f5f5' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='102' h='2666' id='14' mode='dropdown' name='Individual Table' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:Orcidid Int (copy)_3283968603890552863:ok]' type-v2='filter' w='90338' x='4831' y='70661'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f5f5' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='102' h='2666' id='91' mode='dropdown' name='Individual Table' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:orcid_update_scope:nk]' type-v2='filter' values='database' w='90338' x='4831' y='73327'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f5f5' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='102' h='4410' id='21' name='Individual Table' pane-specification-id='0' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[attr:Orcidid Int (copy)_3283968603890552863:ok]&#10;[federated.1cblkfd0eees0e10ev5vy1o50tmw].[attr:orcid_update_scope:nk]' type-v2='color' w='90338' x='4831' y='75993'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6513' id='216' type-v2='text' w='90338' x='4831' y='80403'>
                   <formatted-text>
                     <run italic='true'>After filtering the data, you can download a csv file by selecting &quot;Choose a format to download&quot; in the top-right menu &gt; &quot;Data&quot; &gt; &quot;Download&quot;.</run>
                     <run>Æ&#10;</run>
@@ -2778,12 +2777,12 @@
         </zone>
       </zones>
       <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
+        <devicelayout name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='722' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98770' id='721' param='vert' type-v2='layout-flow' w='98666' x='667' y='615'>
-                <zone alt-text='Stanford University Libraries' fixed-size='24' h='2462' id='496' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='96666' x='1667' y='1538'>
+            <zone h='100000' id='724' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='723' param='vert' type-v2='layout-flow' w='89334' x='5333' y='1143'>
+                <zone alt-text='Stanford University Libraries' fixed-size='24' h='1828' id='496' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/sul-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' url='https://library.stanford.edu' w='89334' x='5333' y='1143'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2792,7 +2791,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='4769' id='23' type-v2='text' w='70583' x='1667' y='4000'>
+                <zone forceUpdate='true' h='9028' id='23' type-v2='text' w='89334' x='5333' y='2971'>
                   <formatted-text>
                     <run bold='true' fontname='Tableau Bold' fontsize='28'>Stanford ORCID Adoption Overview</run>
                   </formatted-text>
@@ -2804,7 +2803,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone alt-text='RIALTO | ORCID' fixed-size='62' h='4769' id='165' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/rialto-orcid-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='26083' x='72250' y='4000'>
+                <zone alt-text='RIALTO | ORCID' fixed-size='62' h='4000' id='165' image-file-url='https://raw.githubusercontent.com/sul-dlss/rialto-tableau/refs/heads/main/images/rialto-orcid-logo.svg' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='89334' x='5333' y='11999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2814,7 +2813,7 @@
                     <format attr='background-color' value='#ffffff' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='2462' id='599' is-fixed='true' name='Dashboard FAQ Link' show-title='false' w='23917' x='74416' y='8769'>
+                <zone fixed-size='39' h='2686' id='599' is-fixed='true' name='Dashboard FAQ Link' show-title='false' w='89334' x='5333' y='15999'>
                   <layout-cache fixed-size-w='279' type-h='fixed' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2824,8 +2823,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='32727' id='5' is-fixed='true' name='Adoption Time Series' w='54750' x='1667' y='11231'>
-                  <layout-cache has-max-size-w='true' maxwidth='1094' minwidth='1094' type-h='fixed' type-w='scalable' />
+                <zone fixed-size='280' h='16457' id='5' is-fixed='true' name='Adoption Time Series' w='89334' x='5333' y='18685'>
+                  <layout-cache has-max-size-h='true' has-max-size-w='true' maxheight='758' maxwidth='1094' minheight='758' minwidth='1094' type-h='scalable' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2834,8 +2833,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='32727' id='14' is-fixed='true' name='ORCID / Scope by Role' w='41913' x='56417' y='11231'>
-                  <layout-cache cell-count-w='5' non-cell-size-w='40' type-h='fixed' type-w='cell' />
+                <zone fixed-size='280' h='16457' id='14' is-fixed='true' name='ORCID / Scope by Role' w='89334' x='5333' y='35142'>
+                  <layout-cache cell-count-w='5' minheight='231' non-cell-size-w='40' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2844,7 +2843,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5000' id='17' name='ORCID / Scope by Role' pane-specification-id='4' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:Calculation_118360289361440768:nk]' show-title='false' type-v2='color' w='16833' x='8333' y='15692'>
+                <zone h='4000' id='17' name='ORCID / Scope by Role' pane-specification-id='4' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[none:Calculation_118360289361440768:nk]' show-title='false' type-v2='color' w='89334' x='5333' y='51599'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2854,7 +2853,8 @@
                     <format attr='background-color' value='#ffffff' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='26913' id='7' is-fixed='true' name='School / Role Highlight Table' show-caption='true' w='78583' x='1667' y='46584'>
+                <zone fixed-size='280' h='16457' id='7' is-fixed='true' name='School / Role Highlight Table' show-caption='true' w='89334' x='5333' y='55599'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2863,16 +2863,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5066' id='184' name='School / Role Highlight Table' pane-specification-id='0' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[usr:Calculation_2288602729941438467:qk:4]' single-line='false' type-v2='color' w='18083' x='80250' y='68431'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='2567' id='304' type-v2='text' w='18083' x='80250' y='46584'>
+                <zone forceUpdate='true' h='1657' id='304' type-v2='text' w='89334' x='5333' y='72056'>
                   <formatted-text>
                     <run fontsize='11'>Table Filters</run>
                   </formatted-text>
@@ -2884,7 +2875,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='7315' id='12' mode='list' param='[Parameters].[Parameter 1]' show-title='false' type-v2='paramctrl' w='18083' x='80250' y='49151'>
+                <zone h='4057' id='12' mode='list' param='[Parameters].[Parameter 1]' show-title='false' type-v2='paramctrl' w='89334' x='5333' y='73713'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2894,7 +2885,7 @@
                     <format attr='background-color' value='#f5f5f5' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='11965' id='305' type-v2='text' w='18083' x='80250' y='56466'>
+                <zone forceUpdate='true' h='5314' id='305' type-v2='text' w='89334' x='5333' y='77770'>
                   <formatted-text>
                     <run italic='true'>ORCID: Researchers who have connected their ORCID with their SUNet ID.</run>
                     <run>Æ&#10;&#10;</run>
@@ -2908,7 +2899,16 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='3374' id='569' type-v2='text' w='96666' x='1667' y='73497'>
+                <zone h='3714' id='184' name='School / Role Highlight Table' pane-specification-id='0' param='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[usr:Calculation_2288602729941438467:qk:4]' single-line='false' type-v2='color' w='89334' x='5333' y='83084'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='7257' id='569' type-v2='text' w='89334' x='5333' y='86798'>
                   <formatted-text>
                     <run italic='true'>After filtering the data, you can download a csv file by selecting &quot;Choose a format to download&quot; in the top-right menu &gt; &quot;Data&quot; &gt; &quot;Download&quot;.</run>
                     <run>Æ&#10;</run>
@@ -2939,7 +2939,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='51'>
-    <window class='dashboard' maximized='true' name='ORCID Overview'>
+    <window class='dashboard' name='ORCID Overview'>
       <viewpoints>
         <viewpoint name='Adoption Time Series'>
           <zoom type='entire-view' />
@@ -2964,7 +2964,7 @@
       <active id='-1' />
       <simple-id uuid='{A81C692C-9870-431F-864F-77A09036B704}' />
     </window>
-    <window class='dashboard' name='ORCID Drill Down'>
+    <window class='dashboard' maximized='true' name='ORCID Drill Down'>
       <viewpoints>
         <viewpoint name='Dashboard FAQ Link' />
         <viewpoint name='Individual Table'>
