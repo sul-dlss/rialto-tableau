@@ -8,8 +8,8 @@
     </color-palette>
 
     <color-palette name="RIALTO ORCID" type="regular">
-      <color>#C8D0D9</color>
-      <color>#D8B365</color>
+      <color>#D7DFE6</color>
+      <color>#98D99A</color>
       <color>#2D716F</color>
     </color-palette>
 
