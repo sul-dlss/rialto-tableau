@@ -479,8 +479,8 @@
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
         <table-calc ordering-type='CellInPane' />
-        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk]' pivot='key' type='quantitative'>
@@ -496,7 +496,7 @@
       <column-instance column='[Orcid Update Scope Int (copy)_2288602729940561922]' derivation='User' name='[usr:Orcid Update Scope Int (copy)_2288602729940561922:qk]' pivot='key' type='quantitative'>
         <table-calc ordering-type='Rows' />
       </column-instance>
-      <layout common-percentage='0.911765' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.0882353' show-aliased-fields='true' show-structure='true' user-set-layout-v2='true' />
+      <layout common-percentage='0.913043' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.0869565' show-aliased-fields='true' show-structure='true' user-set-layout-v2='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[:Measure Names]' palette='color_blind_10_0' type='palette'>
@@ -1625,8 +1625,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -1738,7 +1738,7 @@
                 <run bold='true'><![CDATA[ <[federated.1cblkfd0eees0e10ev5vy1o50tmw].[sum:Calculation_2288602729939755009:qk]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#898989'>Total People:</run>
-                <run bold='true'>Æ </run>
+                <run bold='true'><![CDATA[ <[federated.1cblkfd0eees0e10ev5vy1o50tmw].[__tableau_internal_object_id__].[cnt:authors_active.csv_468044538EFF47FE85E19D0A8C0C00E3:qk]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#898989'>ORCID (All) = ORCID Only + ORCID &amp; Update Permission</run>
                 <run>Æ&#10;</run>
@@ -1858,8 +1858,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -2961,7 +2961,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='7' />
       <simple-id uuid='{A81C692C-9870-431F-864F-77A09036B704}' />
     </window>
     <window class='dashboard' name='ORCID Drill Down'>
@@ -2982,7 +2982,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='359' />
+      <active id='26' />
       <device-preview>
         <device name='iPhone XR, XS Max, 11 Pro Max' type='Phone' />
       </device-preview>
