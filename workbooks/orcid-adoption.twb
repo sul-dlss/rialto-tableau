@@ -495,8 +495,8 @@
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
         <table-calc ordering-type='CellInPane' />
-        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+        <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
         <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
       </column-instance>
       <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk]' pivot='key' type='quantitative'>
@@ -727,7 +727,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='integer' name='context'>6</attribute>
+              <attribute datatype='integer' name='context'>2</attribute>
               <attribute datatype='string' name='gridOrigin'>&quot;A1:C60:no:A1:C60:0&quot;</attribute>
               <attribute datatype='boolean' name='header'>true</attribute>
               <attribute datatype='integer' name='outcome'>2</attribute>
@@ -1651,8 +1651,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -1884,8 +1884,8 @@
             <column-instance column='[Calculation_2288602729939755009]' derivation='Sum' name='[sum:Calculation_2288602729939755009:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_2288602729941438467]' derivation='User' name='[usr:Calculation_2288602729941438467:qk:4]' pivot='key' type='quantitative'>
               <table-calc ordering-type='CellInPane' />
-              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_841258399420809218]' ordering-type='CellInPane' />
+              <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Orcid Update Scope Int (copy)_2288602729940561922]' ordering-type='CellInPane' />
               <table-calc field='[federated.1cblkfd0eees0e10ev5vy1o50tmw].[Calculation_404972178648285185]' ordering-type='CellInPane' />
             </column-instance>
             <column-instance column='[Calculation_3942268219937226753]' derivation='User' name='[usr:Calculation_3942268219937226753:qk]' pivot='key' type='quantitative' />
@@ -2355,7 +2355,7 @@
             <format attr='margin' value='20' />
           </zone-style>
         </zone>
-        <zone h='22769' id='662' type-v2='empty' w='27583' x='1917' y='24538' />
+        <zone h='22846' id='662' type-v2='empty' w='27583' x='1917' y='24692' />
         <zone h='1846' id='663' type-v2='empty' w='51583' x='27083' y='22769' />
       </zones>
       <devicelayouts>
@@ -2991,7 +2991,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='12' />
+      <active id='-1' />
       <simple-id uuid='{A81C692C-9870-431F-864F-77A09036B704}' />
     </window>
     <window class='dashboard' maximized='true' name='ORCID Drill Down'>
